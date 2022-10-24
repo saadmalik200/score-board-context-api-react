@@ -8,6 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Scoreboard />}></Route>
       <Route path="/infoboard" element={<InfoBoard />}></Route>
+      <Route path="*" element={<Scoreboard />}></Route>
     </Routes>
   );
 }
