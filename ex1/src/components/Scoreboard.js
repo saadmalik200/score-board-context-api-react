@@ -11,17 +11,17 @@ const Scoreboard = () => {
     <div className="flex items-center justify-center h-screen">
       <div className="border-2 p-5 w-[30rem] text-center">
         <h2 className="text-[3rem] bg-green-200">Score Board</h2>
-        <p className="text-[2rem] text-green-500 my-3">
+        <p className="text-[2rem] text-green-600 my-3">
           Your Current Score is {score}
         </p>
         <button
-          className="border-2 p-3 bg-blue-200 mx-3"
+          className="hover:bg-yellow-500 text-[1.5rem] border-2 p-3 w-[4rem] bg-blue-200 mx-3"
           onClick={() => plusScore()}
         >
           +
         </button>
         <button
-          className="border-2 p-3 bg-red-200 mx-3"
+          className="hover:bg-yellow-500 border-2 text-[1.5rem]  p-3 w-[4rem] bg-red-200 mx-3"
           onClick={() => minusScore()}
         >
           -
