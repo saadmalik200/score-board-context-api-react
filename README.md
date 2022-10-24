@@ -1,5 +1,3 @@
-[<img alt="DCI logo" src="https://github.com/DigitalCareerInstitute/context-api/blob/main/DCI-logo_3.svg" />](https://github.com/DigitalCareerInstitute/context-api/blob/main/DCI-logo_3.svg)
-
 # Create a simple Scoreboard using Context API
 
 ## Link
